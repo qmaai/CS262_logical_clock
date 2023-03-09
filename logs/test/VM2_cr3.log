@@ -1,0 +1,3 @@
+2023-03-09 16:33:47,072 : VM2_cr3 listening on port 4104
+2023-03-09 16:33:50,077 : VM2_cr3 connected to VM0 on 127.0.0.1 port on 4102.
+2023-03-09 16:33:50,078 : VM2_cr3 has incoming connection from VM1 on 127.0.0.1 port on 4104.

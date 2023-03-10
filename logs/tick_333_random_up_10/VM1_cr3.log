@@ -1,0 +1,250 @@
+2023-03-09 21:16:04,532 : VM1_cr3 listening on port 4097
+2023-03-09 21:16:07,534 : VM1_cr3 has incoming connection from VM0 on 127.0.0.1 port on 4097.
+2023-03-09 21:16:07,538 : VM1_cr3 connected to VM2 on 127.0.0.1 port on 4098.
+2023-03-09 21:16:07,539 : VM1_cr3 send message VM1_cr3:0 to VM0 at system time 0.000
+2023-03-09 21:16:07,878 : VM1_cr3 Received Message VM0_cr3:0 with queue size 0 and internal logic clock 1 at system time 0.339
+2023-03-09 21:16:07,878 : VM1_cr3 send message VM1_cr3:1 to both other VMs at system time 0.340
+2023-03-09 21:16:08,216 : VM1_cr3 Internal Event with logical clock 2 at system time 0.677
+2023-03-09 21:16:08,554 : VM1_cr3 Internal Event with logical clock 3 at system time 1.015
+2023-03-09 21:16:08,892 : VM1_cr3 Send Message VM1_cr3:4 to VM2 at system time 1.353
+2023-03-09 21:16:09,227 : VM1_cr3 Internal Event with logical clock 5 at system time 1.688
+2023-03-09 21:16:09,565 : VM1_cr3 Internal Event with logical clock 6 at system time 2.026
+2023-03-09 21:16:09,903 : VM1_cr3 Internal Event with logical clock 7 at system time 2.365
+2023-03-09 21:16:10,238 : VM1_cr3 send message VM1_cr3:8 to VM0 at system time 2.699
+2023-03-09 21:16:10,576 : VM1_cr3 Received Message 8 with queue size 0 and internal logic clock 9 at system time 3.037
+2023-03-09 21:16:10,577 : VM1_cr3 Internal Event with logical clock 9 at system time 3.038
+2023-03-09 21:16:10,914 : VM1_cr3 Internal Event with logical clock 10 at system time 3.375
+2023-03-09 21:16:11,251 : VM1_cr3 Internal Event with logical clock 11 at system time 3.713
+2023-03-09 21:16:11,589 : VM1_cr3 Received Message VM0_cr3:11 with queue size 0 and internal logic clock 12 at system time 4.050
+2023-03-09 21:16:11,589 : VM1_cr3 Internal Event with logical clock 12 at system time 4.051
+2023-03-09 21:16:11,925 : VM1_cr3 Received Message VM0_cr3:12 with queue size 0 and internal logic clock 13 at system time 4.387
+2023-03-09 21:16:11,926 : VM1_cr3 Internal Event with logical clock 13 at system time 4.387
+2023-03-09 21:16:12,262 : VM1_cr3 Send Message VM1_cr3:14 to VM2 at system time 4.724
+2023-03-09 21:16:12,599 : VM1_cr3 Internal Event with logical clock 15 at system time 5.060
+2023-03-09 21:16:12,932 : VM1_cr3 Internal Event with logical clock 16 at system time 5.393
+2023-03-09 21:16:13,270 : VM1_cr3 Received Message 17 with queue size 0 and internal logic clock 17 at system time 5.732
+2023-03-09 21:16:13,271 : VM1_cr3 Internal Event with logical clock 17 at system time 5.732
+2023-03-09 21:16:13,609 : VM1_cr3 Send Message VM1_cr3:18 to VM2 at system time 6.070
+2023-03-09 21:16:13,943 : VM1_cr3 Received Message VM0_cr3:18 with queue size 1 and internal logic clock 19 at system time 6.404
+2023-03-09 21:16:13,943 : VM1_cr3 Internal Event with logical clock 19 at system time 6.404
+2023-03-09 21:16:14,277 : VM1_cr3 Received Message 19 with queue size 0 and internal logic clock 20 at system time 6.738
+2023-03-09 21:16:14,277 : VM1_cr3 Send Message VM1_cr3:20 to VM2 at system time 6.738
+2023-03-09 21:16:14,613 : VM1_cr3 Received Message 20 with queue size 0 and internal logic clock 21 at system time 7.074
+2023-03-09 21:16:14,614 : VM1_cr3 Internal Event with logical clock 21 at system time 7.075
+2023-03-09 21:16:14,949 : VM1_cr3 Received Message VM2_cr3:21 with queue size 0 and internal logic clock 22 at system time 7.410
+2023-03-09 21:16:14,950 : VM1_cr3 Internal Event with logical clock 22 at system time 7.411
+2023-03-09 21:16:15,286 : VM1_cr3 Internal Event with logical clock 23 at system time 7.747
+2023-03-09 21:16:15,622 : VM1_cr3 send message VM1_cr3:24 to VM0 at system time 8.084
+2023-03-09 21:16:15,956 : VM1_cr3 Internal Event with logical clock 25 at system time 8.417
+2023-03-09 21:16:16,292 : VM1_cr3 Received Message VM2_cr3:25 with queue size 0 and internal logic clock 26 at system time 8.753
+2023-03-09 21:16:16,292 : VM1_cr3 Internal Event with logical clock 26 at system time 8.754
+2023-03-09 21:16:16,627 : VM1_cr3 Internal Event with logical clock 27 at system time 9.089
+2023-03-09 21:16:16,966 : VM1_cr3 Internal Event with logical clock 28 at system time 9.427
+2023-03-09 21:16:17,304 : VM1_cr3 Internal Event with logical clock 29 at system time 9.765
+2023-03-09 21:16:17,641 : VM1_cr3 send message VM1_cr3:30 to both other VMs at system time 10.10
+2023-03-09 21:16:17,975 : VM1_cr3 Internal Event with logical clock 31 at system time 10.43
+2023-03-09 21:16:18,313 : VM1_cr3 Internal Event with logical clock 32 at system time 10.77
+2023-03-09 21:16:18,652 : VM1_cr3 Received Message 32 with queue size 0 and internal logic clock 33 at system time 11.11
+2023-03-09 21:16:18,653 : VM1_cr3 Send Message VM1_cr3:33 to VM2 at system time 11.11
+2023-03-09 21:16:18,987 : VM1_cr3 send message VM1_cr3:34 to both other VMs at system time 11.44
+2023-03-09 21:16:19,323 : VM1_cr3 Send Message VM1_cr3:35 to VM2 at system time 11.78
+2023-03-09 21:16:19,661 : VM1_cr3 Received Message VM0_cr3:35 with queue size 0 and internal logic clock 36 at system time 12.12
+2023-03-09 21:16:19,662 : VM1_cr3 send message VM1_cr3:36 to both other VMs at system time 12.12
+2023-03-09 21:16:19,998 : VM1_cr3 Internal Event with logical clock 37 at system time 12.46
+2023-03-09 21:16:20,337 : VM1_cr3 Received Message VM2_cr3:37 with queue size 0 and internal logic clock 38 at system time 12.79
+2023-03-09 21:16:20,337 : VM1_cr3 Send Message VM1_cr3:38 to VM2 at system time 12.79
+2023-03-09 21:16:20,673 : VM1_cr3 Send Message VM1_cr3:39 to VM2 at system time 13.13
+2023-03-09 21:16:21,011 : VM1_cr3 send message VM1_cr3:40 to VM0 at system time 13.47
+2023-03-09 21:16:21,349 : VM1_cr3 Received Message VM2_cr3:40 with queue size 0 and internal logic clock 41 at system time 13.81
+2023-03-09 21:16:21,350 : VM1_cr3 Internal Event with logical clock 41 at system time 13.81
+2023-03-09 21:16:21,684 : VM1_cr3 Send Message VM1_cr3:42 to VM2 at system time 14.14
+2023-03-09 21:16:22,021 : VM1_cr3 Received Message VM2_cr3:42 with queue size 0 and internal logic clock 43 at system time 14.48
+2023-03-09 21:16:22,022 : VM1_cr3 Internal Event with logical clock 43 at system time 14.48
+2023-03-09 21:16:22,355 : VM1_cr3 Received Message 43 with queue size 0 and internal logic clock 44 at system time 14.81
+2023-03-09 21:16:22,355 : VM1_cr3 Internal Event with logical clock 44 at system time 14.81
+2023-03-09 21:16:22,688 : VM1_cr3 Internal Event with logical clock 45 at system time 15.15
+2023-03-09 21:16:23,023 : VM1_cr3 Internal Event with logical clock 46 at system time 15.48
+2023-03-09 21:16:23,361 : VM1_cr3 Send Message VM1_cr3:47 to VM2 at system time 15.82
+2023-03-09 21:16:23,696 : VM1_cr3 Internal Event with logical clock 48 at system time 16.15
+2023-03-09 21:16:24,030 : VM1_cr3 Received Message 48 with queue size 0 and internal logic clock 49 at system time 16.49
+2023-03-09 21:16:24,030 : VM1_cr3 Internal Event with logical clock 49 at system time 16.49
+2023-03-09 21:16:24,364 : VM1_cr3 Send Message VM1_cr3:50 to VM2 at system time 16.82
+2023-03-09 21:16:24,702 : VM1_cr3 Internal Event with logical clock 51 at system time 17.16
+2023-03-09 21:16:25,037 : VM1_cr3 Internal Event with logical clock 52 at system time 17.49
+2023-03-09 21:16:25,376 : VM1_cr3 Internal Event with logical clock 53 at system time 17.83
+2023-03-09 21:16:25,710 : VM1_cr3 Internal Event with logical clock 54 at system time 18.17
+2023-03-09 21:16:26,048 : VM1_cr3 Internal Event with logical clock 55 at system time 18.51
+2023-03-09 21:16:26,386 : VM1_cr3 Received Message 55 with queue size 0 and internal logic clock 56 at system time 18.84
+2023-03-09 21:16:26,386 : VM1_cr3 Internal Event with logical clock 56 at system time 18.84
+2023-03-09 21:16:26,721 : VM1_cr3 send message VM1_cr3:57 to both other VMs at system time 19.18
+2023-03-09 21:16:27,060 : VM1_cr3 Internal Event with logical clock 58 at system time 19.52
+2023-03-09 21:16:27,398 : VM1_cr3 send message VM1_cr3:59 to both other VMs at system time 19.85
+2023-03-09 21:16:27,736 : VM1_cr3 Internal Event with logical clock 60 at system time 20.19
+2023-03-09 21:16:28,074 : VM1_cr3 Internal Event with logical clock 61 at system time 20.53
+2023-03-09 21:16:28,408 : VM1_cr3 Internal Event with logical clock 62 at system time 20.87
+2023-03-09 21:16:28,746 : VM1_cr3 Send Message VM1_cr3:63 to VM2 at system time 21.20
+2023-03-09 21:16:29,084 : VM1_cr3 Internal Event with logical clock 64 at system time 21.54
+2023-03-09 21:16:29,423 : VM1_cr3 Received Message VM0_cr3:64 with queue size 0 and internal logic clock 65 at system time 21.88
+2023-03-09 21:16:29,424 : VM1_cr3 Internal Event with logical clock 65 at system time 21.88
+2023-03-09 21:16:29,761 : VM1_cr3 Internal Event with logical clock 66 at system time 22.22
+2023-03-09 21:16:30,097 : VM1_cr3 Internal Event with logical clock 67 at system time 22.55
+2023-03-09 21:16:30,433 : VM1_cr3 Internal Event with logical clock 68 at system time 22.89
+2023-03-09 21:16:30,769 : VM1_cr3 Internal Event with logical clock 69 at system time 23.23
+2023-03-09 21:16:31,105 : VM1_cr3 Internal Event with logical clock 70 at system time 23.56
+2023-03-09 21:16:31,439 : VM1_cr3 Internal Event with logical clock 71 at system time 23.90
+2023-03-09 21:16:31,778 : VM1_cr3 Received Message VM0_cr3:71 with queue size 0 and internal logic clock 72 at system time 24.23
+2023-03-09 21:16:31,779 : VM1_cr3 Internal Event with logical clock 72 at system time 24.24
+2023-03-09 21:16:32,114 : VM1_cr3 send message VM1_cr3:73 to both other VMs at system time 24.57
+2023-03-09 21:16:32,449 : VM1_cr3 Send Message VM1_cr3:74 to VM2 at system time 24.91
+2023-03-09 21:16:32,786 : VM1_cr3 Received Message 74 with queue size 0 and internal logic clock 75 at system time 25.24
+2023-03-09 21:16:32,787 : VM1_cr3 Internal Event with logical clock 75 at system time 25.24
+2023-03-09 21:16:33,123 : VM1_cr3 Internal Event with logical clock 76 at system time 25.58
+2023-03-09 21:16:33,457 : VM1_cr3 Internal Event with logical clock 77 at system time 25.91
+2023-03-09 21:16:33,795 : VM1_cr3 send message VM1_cr3:78 to VM0 at system time 26.25
+2023-03-09 21:16:34,131 : VM1_cr3 Internal Event with logical clock 79 at system time 26.59
+2023-03-09 21:16:34,468 : VM1_cr3 Internal Event with logical clock 80 at system time 26.92
+2023-03-09 21:16:34,801 : VM1_cr3 Internal Event with logical clock 81 at system time 27.26
+2023-03-09 21:16:35,139 : VM1_cr3 Internal Event with logical clock 82 at system time 27.60
+2023-03-09 21:16:35,476 : VM1_cr3 Internal Event with logical clock 83 at system time 27.93
+2023-03-09 21:16:35,809 : VM1_cr3 send message VM1_cr3:84 to VM0 at system time 28.27
+2023-03-09 21:16:36,148 : VM1_cr3 Internal Event with logical clock 85 at system time 28.60
+2023-03-09 21:16:36,486 : VM1_cr3 send message VM1_cr3:86 to both other VMs at system time 28.94
+2023-03-09 21:16:36,824 : VM1_cr3 Internal Event with logical clock 87 at system time 29.28
+2023-03-09 21:16:37,163 : VM1_cr3 Received Message VM2_cr3:87 with queue size 0 and internal logic clock 88 at system time 29.62
+2023-03-09 21:16:37,163 : VM1_cr3 send message VM1_cr3:88 to VM0 at system time 29.62
+2023-03-09 21:16:37,499 : VM1_cr3 Internal Event with logical clock 89 at system time 29.96
+2023-03-09 21:16:37,834 : VM1_cr3 Received Message 89 with queue size 0 and internal logic clock 90 at system time 30.29
+2023-03-09 21:16:37,835 : VM1_cr3 Send Message VM1_cr3:90 to VM2 at system time 30.29
+2023-03-09 21:16:38,169 : VM1_cr3 Internal Event with logical clock 91 at system time 30.63
+2023-03-09 21:16:38,506 : VM1_cr3 Internal Event with logical clock 92 at system time 30.96
+2023-03-09 21:16:38,845 : VM1_cr3 Internal Event with logical clock 93 at system time 31.30
+2023-03-09 21:16:39,178 : VM1_cr3 send message VM1_cr3:94 to both other VMs at system time 31.63
+2023-03-09 21:16:39,517 : VM1_cr3 Received Message VM0_cr3:94 with queue size 1 and internal logic clock 95 at system time 31.97
+2023-03-09 21:16:39,517 : VM1_cr3 Internal Event with logical clock 95 at system time 31.97
+2023-03-09 21:16:39,852 : VM1_cr3 Received Message 94 with queue size 1 and internal logic clock 96 at system time 32.31
+2023-03-09 21:16:39,853 : VM1_cr3 Send Message VM1_cr3:96 to VM2 at system time 32.31
+2023-03-09 21:16:40,187 : VM1_cr3 Received Message 95 with queue size 0 and internal logic clock 97 at system time 32.64
+2023-03-09 21:16:40,187 : VM1_cr3 Internal Event with logical clock 97 at system time 32.64
+2023-03-09 21:16:40,522 : VM1_cr3 Received Message VM0_cr3:97 with queue size 0 and internal logic clock 98 at system time 32.98
+2023-03-09 21:16:40,522 : VM1_cr3 Internal Event with logical clock 98 at system time 32.98
+2023-03-09 21:16:40,860 : VM1_cr3 Received Message VM0_cr3:98 with queue size 0 and internal logic clock 99 at system time 33.32
+2023-03-09 21:16:40,861 : VM1_cr3 send message VM1_cr3:99 to both other VMs at system time 33.32
+2023-03-09 21:16:41,199 : VM1_cr3 Send Message VM1_cr3:100 to VM2 at system time 33.66
+2023-03-09 21:16:41,536 : VM1_cr3 Received Message 100 with queue size 0 and internal logic clock 101 at system time 33.99
+2023-03-09 21:16:41,537 : VM1_cr3 Internal Event with logical clock 101 at system time 33.99
+2023-03-09 21:16:41,872 : VM1_cr3 Internal Event with logical clock 102 at system time 34.33
+2023-03-09 21:16:42,208 : VM1_cr3 Received Message 102 with queue size 1 and internal logic clock 103 at system time 34.66
+2023-03-09 21:16:42,208 : VM1_cr3 Internal Event with logical clock 103 at system time 34.67
+2023-03-09 21:16:42,545 : VM1_cr3 Received Message VM2_cr3:102 with queue size 1 and internal logic clock 104 at system time 35.00
+2023-03-09 21:16:42,546 : VM1_cr3 Internal Event with logical clock 104 at system time 35.00
+2023-03-09 21:16:42,883 : VM1_cr3 Received Message 103 with queue size 0 and internal logic clock 105 at system time 35.34
+2023-03-09 21:16:42,884 : VM1_cr3 Internal Event with logical clock 105 at system time 35.34
+2023-03-09 21:16:43,221 : VM1_cr3 Received Message VM0_cr3:105 with queue size 0 and internal logic clock 106 at system time 35.68
+2023-03-09 21:16:43,222 : VM1_cr3 Internal Event with logical clock 106 at system time 35.68
+2023-03-09 21:16:43,556 : VM1_cr3 Received Message VM0_cr3:106 with queue size 1 and internal logic clock 107 at system time 36.01
+2023-03-09 21:16:43,557 : VM1_cr3 Internal Event with logical clock 107 at system time 36.01
+2023-03-09 21:16:43,894 : VM1_cr3 Received Message 106 with queue size 2 and internal logic clock 108 at system time 36.35
+2023-03-09 21:16:43,894 : VM1_cr3 Internal Event with logical clock 108 at system time 36.35
+2023-03-09 21:16:44,230 : VM1_cr3 Received Message VM0_cr3:107 with queue size 1 and internal logic clock 109 at system time 36.69
+2023-03-09 21:16:44,231 : VM1_cr3 Internal Event with logical clock 109 at system time 36.69
+2023-03-09 21:16:44,566 : VM1_cr3 Received Message 107 with queue size 1 and internal logic clock 110 at system time 37.02
+2023-03-09 21:16:44,567 : VM1_cr3 Internal Event with logical clock 110 at system time 37.02
+2023-03-09 21:16:44,904 : VM1_cr3 Received Message VM0_cr3:109 with queue size 1 and internal logic clock 111 at system time 37.36
+2023-03-09 21:16:44,904 : VM1_cr3 Internal Event with logical clock 111 at system time 37.36
+2023-03-09 21:16:45,242 : VM1_cr3 Received Message VM0_cr3:110 with queue size 2 and internal logic clock 112 at system time 37.70
+2023-03-09 21:16:45,243 : VM1_cr3 Internal Event with logical clock 112 at system time 37.70
+2023-03-09 21:16:45,580 : VM1_cr3 Received Message VM0_cr3:111 with queue size 2 and internal logic clock 113 at system time 38.04
+2023-03-09 21:16:45,581 : VM1_cr3 Internal Event with logical clock 113 at system time 38.04
+2023-03-09 21:16:45,918 : VM1_cr3 Received Message 111 with queue size 1 and internal logic clock 114 at system time 38.38
+2023-03-09 21:16:45,919 : VM1_cr3 send message VM1_cr3:114 to both other VMs at system time 38.38
+2023-03-09 21:16:46,252 : VM1_cr3 Received Message 112 with queue size 0 and internal logic clock 115 at system time 38.71
+2023-03-09 21:16:46,253 : VM1_cr3 Internal Event with logical clock 115 at system time 38.71
+2023-03-09 21:16:46,590 : VM1_cr3 Received Message 116 with queue size 0 and internal logic clock 116 at system time 39.05
+2023-03-09 21:16:46,590 : VM1_cr3 Internal Event with logical clock 116 at system time 39.05
+2023-03-09 21:16:46,928 : VM1_cr3 Internal Event with logical clock 117 at system time 39.39
+2023-03-09 21:16:47,267 : VM1_cr3 Internal Event with logical clock 118 at system time 39.72
+2023-03-09 21:16:47,605 : VM1_cr3 Internal Event with logical clock 119 at system time 40.06
+2023-03-09 21:16:47,941 : VM1_cr3 Internal Event with logical clock 120 at system time 40.40
+2023-03-09 21:16:48,279 : VM1_cr3 Received Message VM2_cr3:120 with queue size 0 and internal logic clock 121 at system time 40.74
+2023-03-09 21:16:48,280 : VM1_cr3 Internal Event with logical clock 121 at system time 40.74
+2023-03-09 21:16:48,617 : VM1_cr3 Internal Event with logical clock 122 at system time 41.07
+2023-03-09 21:16:48,953 : VM1_cr3 Internal Event with logical clock 123 at system time 41.41
+2023-03-09 21:16:49,289 : VM1_cr3 Internal Event with logical clock 124 at system time 41.75
+2023-03-09 21:16:49,626 : VM1_cr3 Internal Event with logical clock 125 at system time 42.08
+2023-03-09 21:16:49,964 : VM1_cr3 Received Message 125 with queue size 0 and internal logic clock 126 at system time 42.42
+2023-03-09 21:16:49,965 : VM1_cr3 send message VM1_cr3:126 to both other VMs at system time 42.42
+2023-03-09 21:16:50,301 : VM1_cr3 Received Message VM2_cr3:126 with queue size 0 and internal logic clock 127 at system time 42.76
+2023-03-09 21:16:50,301 : VM1_cr3 Internal Event with logical clock 127 at system time 42.76
+2023-03-09 21:16:50,639 : VM1_cr3 Received Message VM0_cr3:128 with queue size 0 and internal logic clock 128 at system time 43.10
+2023-03-09 21:16:50,640 : VM1_cr3 Internal Event with logical clock 128 at system time 43.10
+2023-03-09 21:16:50,978 : VM1_cr3 Received Message 128 with queue size 0 and internal logic clock 129 at system time 43.43
+2023-03-09 21:16:50,978 : VM1_cr3 Internal Event with logical clock 129 at system time 43.44
+2023-03-09 21:16:51,311 : VM1_cr3 Received Message 130 with queue size 0 and internal logic clock 130 at system time 43.77
+2023-03-09 21:16:51,312 : VM1_cr3 Internal Event with logical clock 130 at system time 43.77
+2023-03-09 21:16:51,649 : VM1_cr3 Send Message VM1_cr3:131 to VM2 at system time 44.11
+2023-03-09 21:16:51,985 : VM1_cr3 Received Message 131 with queue size 0 and internal logic clock 132 at system time 44.44
+2023-03-09 21:16:51,986 : VM1_cr3 Internal Event with logical clock 132 at system time 44.44
+2023-03-09 21:16:52,323 : VM1_cr3 Internal Event with logical clock 133 at system time 44.78
+2023-03-09 21:16:52,661 : VM1_cr3 Received Message VM2_cr3:133 with queue size 0 and internal logic clock 134 at system time 45.12
+2023-03-09 21:16:52,662 : VM1_cr3 send message VM1_cr3:134 to both other VMs at system time 45.12
+2023-03-09 21:16:52,998 : VM1_cr3 Received Message 134 with queue size 0 and internal logic clock 135 at system time 45.45
+2023-03-09 21:16:52,998 : VM1_cr3 Internal Event with logical clock 135 at system time 45.46
+2023-03-09 21:16:53,336 : VM1_cr3 send message VM1_cr3:136 to VM0 at system time 45.79
+2023-03-09 21:16:53,675 : VM1_cr3 Internal Event with logical clock 137 at system time 46.13
+2023-03-09 21:16:54,013 : VM1_cr3 Received Message VM0_cr3:138 with queue size 0 and internal logic clock 138 at system time 46.47
+2023-03-09 21:16:54,013 : VM1_cr3 send message VM1_cr3:138 to both other VMs at system time 46.47
+2023-03-09 21:16:54,350 : VM1_cr3 Internal Event with logical clock 139 at system time 46.81
+2023-03-09 21:16:54,688 : VM1_cr3 Received Message 140 with queue size 0 and internal logic clock 140 at system time 47.14
+2023-03-09 21:16:54,688 : VM1_cr3 Internal Event with logical clock 140 at system time 47.15
+2023-03-09 21:16:55,026 : VM1_cr3 Internal Event with logical clock 141 at system time 47.48
+2023-03-09 21:16:55,364 : VM1_cr3 send message VM1_cr3:142 to VM0 at system time 47.82
+2023-03-09 21:16:55,700 : VM1_cr3 Internal Event with logical clock 143 at system time 48.16
+2023-03-09 21:16:56,035 : VM1_cr3 Received Message 144 with queue size 0 and internal logic clock 144 at system time 48.49
+2023-03-09 21:16:56,035 : VM1_cr3 Internal Event with logical clock 144 at system time 48.49
+2023-03-09 21:16:56,369 : VM1_cr3 Internal Event with logical clock 145 at system time 48.83
+2023-03-09 21:16:56,705 : VM1_cr3 Received Message 146 with queue size 0 and internal logic clock 146 at system time 49.16
+2023-03-09 21:16:56,706 : VM1_cr3 send message VM1_cr3:146 to both other VMs at system time 49.16
+2023-03-09 21:16:57,043 : VM1_cr3 Internal Event with logical clock 147 at system time 49.50
+2023-03-09 21:16:57,381 : VM1_cr3 Received Message VM2_cr3:147 with queue size 0 and internal logic clock 148 at system time 49.84
+2023-03-09 21:16:57,382 : VM1_cr3 Internal Event with logical clock 148 at system time 49.84
+2023-03-09 21:16:57,715 : VM1_cr3 Internal Event with logical clock 149 at system time 50.17
+2023-03-09 21:16:58,053 : VM1_cr3 Received Message 150 with queue size 0 and internal logic clock 150 at system time 50.51
+2023-03-09 21:16:58,054 : VM1_cr3 Internal Event with logical clock 150 at system time 50.51
+2023-03-09 21:16:58,389 : VM1_cr3 send message VM1_cr3:151 to VM0 at system time 50.85
+2023-03-09 21:16:58,723 : VM1_cr3 Received Message VM2_cr3:151 with queue size 0 and internal logic clock 152 at system time 51.18
+2023-03-09 21:16:58,723 : VM1_cr3 Internal Event with logical clock 152 at system time 51.18
+2023-03-09 21:16:59,056 : VM1_cr3 Send Message VM1_cr3:153 to VM2 at system time 51.51
+2023-03-09 21:16:59,395 : VM1_cr3 Received Message 154 with queue size 0 and internal logic clock 154 at system time 51.85
+2023-03-09 21:16:59,395 : VM1_cr3 Internal Event with logical clock 154 at system time 51.85
+2023-03-09 21:16:59,731 : VM1_cr3 Internal Event with logical clock 155 at system time 52.19
+2023-03-09 21:17:00,068 : VM1_cr3 Internal Event with logical clock 156 at system time 52.53
+2023-03-09 21:17:00,404 : VM1_cr3 Internal Event with logical clock 157 at system time 52.86
+2023-03-09 21:17:00,745 : VM1_cr3 Received Message 157 with queue size 0 and internal logic clock 158 at system time 53.20
+2023-03-09 21:17:00,746 : VM1_cr3 Internal Event with logical clock 158 at system time 53.20
+2023-03-09 21:17:01,084 : VM1_cr3 Internal Event with logical clock 159 at system time 53.54
+2023-03-09 21:17:01,422 : VM1_cr3 Send Message VM1_cr3:160 to VM2 at system time 53.88
+2023-03-09 21:17:01,759 : VM1_cr3 Internal Event with logical clock 161 at system time 54.22
+2023-03-09 21:17:02,097 : VM1_cr3 Send Message VM1_cr3:162 to VM2 at system time 54.55
+2023-03-09 21:17:02,435 : VM1_cr3 Send Message VM1_cr3:163 to VM2 at system time 54.89
+2023-03-09 21:17:02,773 : VM1_cr3 Received Message VM0_cr3:164 with queue size 0 and internal logic clock 164 at system time 55.23
+2023-03-09 21:17:02,773 : VM1_cr3 Internal Event with logical clock 164 at system time 55.23
+2023-03-09 21:17:03,110 : VM1_cr3 Internal Event with logical clock 165 at system time 55.57
+2023-03-09 21:17:03,444 : VM1_cr3 Internal Event with logical clock 166 at system time 55.90
+2023-03-09 21:17:03,783 : VM1_cr3 Received Message 166 with queue size 0 and internal logic clock 167 at system time 56.24
+2023-03-09 21:17:03,783 : VM1_cr3 Send Message VM1_cr3:167 to VM2 at system time 56.24
+2023-03-09 21:17:04,122 : VM1_cr3 Received Message 167 with queue size 0 and internal logic clock 168 at system time 56.58
+2023-03-09 21:17:04,122 : VM1_cr3 Internal Event with logical clock 168 at system time 56.58
+2023-03-09 21:17:04,460 : VM1_cr3 Internal Event with logical clock 169 at system time 56.92
+2023-03-09 21:17:04,798 : VM1_cr3 Internal Event with logical clock 170 at system time 57.26
+2023-03-09 21:17:05,132 : VM1_cr3 Internal Event with logical clock 171 at system time 57.59
+2023-03-09 21:17:05,471 : VM1_cr3 Internal Event with logical clock 172 at system time 57.93
+2023-03-09 21:17:05,807 : VM1_cr3 Received Message VM0_cr3:173 with queue size 0 and internal logic clock 173 at system time 58.26
+2023-03-09 21:17:05,807 : VM1_cr3 send message VM1_cr3:173 to both other VMs at system time 58.26
+2023-03-09 21:17:06,144 : VM1_cr3 Send Message VM1_cr3:174 to VM2 at system time 58.60
+2023-03-09 21:17:06,477 : VM1_cr3 Internal Event with logical clock 175 at system time 58.93
+2023-03-09 21:17:06,816 : VM1_cr3 Received Message 175 with queue size 0 and internal logic clock 176 at system time 59.27
+2023-03-09 21:17:06,816 : VM1_cr3 Internal Event with logical clock 176 at system time 59.27
+2023-03-09 21:17:07,153 : VM1_cr3 Internal Event with logical clock 177 at system time 59.61
+2023-03-09 21:17:07,490 : VM1_cr3 Internal Event with logical clock 178 at system time 59.95
+2023-03-09 21:17:07,829 : VM1_cr3 send message VM1_cr3:179 to VM0 at system time 60.29
+2023-03-09 21:17:08,163 : Failed to receive message!

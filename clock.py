@@ -153,7 +153,7 @@ class VM():
                     self.logger.debug("{} pulled a message {} at system time {}".format(self.name, msg, datetime.datetime.now().strftime("%m_%d_%y_%H:%M:%S")))
 
             except Exception as err:
-                self.logger.error("Failed to receive message!")
+                #self.logger.error("Failed to receive message!")
                 socket.close()
 
     def send(self, msg, socket):
@@ -161,7 +161,7 @@ class VM():
         A wrapper send function through socket
         """
         try:
-            socket.sendall(msg.encode())
+            socket.send(msg.encode())
         except Exception as err:
             self.logger.error(" Failed to send message!")
             socket.close()
@@ -201,41 +201,43 @@ class VM():
                         msg = self.q.get() # msg in form "vm_name:clock_val"
                         msg_logic_clock_val = msg.split(":")[-1]
                         self.logger.info(self.name +' Received Message '+ msg + ' with queue size ' + str(self.q.qsize())+ ' and internal logic clock ' + str(self.clock)+" at system time "+ str(time.time()-start_time)[0:5])
-                        self.clock = max(self.clock, int(msg_logic_clock_val))
+                        self.clock = max(self.clock, int(msg_logic_clock_val)) + 1
 
                 # otherwise try to send a message
-                r_num = random.randint(1, 10)
-
-                # send to out vm machine the clock value
-                if r_num == 1:
-                    out_vm = "VM"+str( (self.index+1) % 3) # a presentable VM name
-                    msg = self.name +":"+str(self.clock)
-                    self.logger.info(self.name +' Send Message '+ msg + " to " + out_vm +" at system time "+ str(time.time()-start_time)[0:5])
-                    self.send(msg, self.out_s)
-
-                # send to in vm machine the clock value
-                elif r_num == 2:
-                    out_vm = "VM"+str( (self.index-1) % 3) # a presentable VM name
-                    msg = self.name +":"+str(self.clock)
-                    self.logger.info(self.name +' send message '+ msg + " to " + out_vm +" at system time "+ str(time.time()-start_time)[0:5])
-                    self.send(msg, self.in_s)
-
-                # send to both vms machines the clock value
-                elif r_num == 3:
-                    msg = self.name +":"+str(self.clock)
-                    self.logger.info(self.name +' send message '+ msg + " to both other VMs at system time "+ str(time.time()-start_time)[0:5])
-                    t_out_send = threading.Thread(target=self.send, args=(str(self.clock),self.out_s))
-                    t_in_send = threading.Thread(target=self.send, args=(str(self.clock),self.in_s))
-                    t_out_send.start()
-                    t_in_send.start()
-                    t_out_send.join()
-                    t_in_send.join()
-
-                # otherwise no communication and simply just internal event
                 else:
-                    self.logger.info(self.name +' Internal Event with logical clock '+ str(self.clock) + " at system time "+ str(time.time()-start_time)[0:5])
+                    r_num = random.randint(1, 10)
 
-                self.clock += 1
+                    # send to out vm machine the clock value
+                    if r_num == 1:
+                        out_vm = "VM"+str( (self.index+1) % 3) # a presentable VM name
+                        msg = self.name +":"+str(self.clock)
+                        self.logger.info(self.name +' Send Message '+ msg + " to " + out_vm +" at system time "+ str(time.time()-start_time)[0:5])
+                        self.send(msg, self.out_s)
+
+                    # send to in vm machine the clock value
+                    elif r_num == 2:
+                        out_vm = "VM"+str( (self.index-1) % 3) # a presentable VM name
+                        msg = self.name +":"+str(self.clock)
+                        self.logger.info(self.name +' send message '+ msg + " to " + out_vm +" at system time "+ str(time.time()-start_time)[0:5])
+                        self.send(msg, self.in_s)
+
+                    # send to both vms machines the clock value
+                    elif r_num == 3:
+                        msg = self.name +":"+str(self.clock)
+                        self.logger.info(self.name +' send message '+ msg + " to both other VMs at system time "+ str(time.time()-start_time)[0:5])
+                        t_out_send = threading.Thread(target=self.send, args=(str(self.clock),self.out_s))
+                        t_in_send = threading.Thread(target=self.send, args=(str(self.clock),self.in_s))
+                        t_out_send.start()
+                        t_in_send.start()
+                        t_out_send.join()
+                        t_in_send.join()
+
+                    # otherwise no communication and simply just internal event
+                    else:
+                        self.logger.info(self.name +' Internal Event with logical clock '+ str(self.clock) + " at system time "+ str(time.time()-start_time)[0:5])
+
+                    self.clock += 1
+
                 # sleep for 1/rate before waking up again
                 # adjust for the operation in this round
                 round_time = time.time() - wake_up_this_round_time
@@ -265,6 +267,7 @@ if __name__ == "__main__":
     exp_folder = "logs/"+datetime.datetime.now().strftime("%m_%d_%y_%H:%M:%S")
     os.makedirs(exp_folder)
     
+    #tick_list = [12,12,12]
     try: 
         ps = []
         for i in range(len(VM_PORTS)):

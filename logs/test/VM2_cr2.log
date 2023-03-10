@@ -1,3 +1,0 @@
-2023-03-09 14:43:26,026 : VM2_cr2 listening on port 4098
-2023-03-09 14:43:27,030 : VM2_cr2 has incoming connection from VM1 on 127.0.0.1 port on 4098.
-2023-03-09 14:43:27,031 : VM2_cr2 failed to connect to VM0 on 127.0.0.1 port 4096. Error
